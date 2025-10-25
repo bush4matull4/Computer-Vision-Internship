@@ -1,0 +1,4 @@
+train: C:/Users/BUSHRA AMATULLA/Desktop/vision_internship_2025/car_images/train
+val: C:/Users/BUSHRA AMATULLA/Desktop/vision_internship_2025/car_images/val
+nc: 1
+names: ['car']
