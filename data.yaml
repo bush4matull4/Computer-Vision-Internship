@@ -1,4 +1,17 @@
-train: C:/Users/BUSHRA AMATULLA/Desktop/vision_internship_2025/car_images/train
-val: C:/Users/BUSHRA AMATULLA/Desktop/vision_internship_2025/car_images/val
-nc: 1
-names: ['car']
+# data.yaml
+# Path is set to '.' (current directory) for simplicity.
+path: . 
+
+# Relative paths to your image and label folders
+# (These paths are correct based on your folder structure)
+train: images/train  
+val: images/val      
+
+# Classes information (Only 3 classes assumed based on your images)
+# The classes are mapped to the first 3 IDs (0, 1, 2)
+nc: 3
+names: [
+    'person', 
+    'car',
+    'dog'
+]
