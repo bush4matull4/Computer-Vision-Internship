@@ -1,0 +1,37 @@
+Task 2: Multiple Image Object Detection & Segmentation
+
+Author: Bushra Amatulla
+
+🔹 Objective
+
+To perform Object Detection and Segmentation on multiple images using YOLOv8 model and analyze its performance metrics.
+
+🔹 Steps Performed
+
+Created a Python script multi_img_seg.py to process multiple images automatically from the images/ folder.
+
+Used YOLOv8x model (yolov8x.pt) for object detection.
+
+Executed the model to predict and save processed outputs in runs/detect/predict and runs/segment/predict.
+
+Verified number of detected objects (bounding boxes) for each image.
+
+Observed performance metrics from the generated files.
+
+🔹 Metrics Observed
+
+Box F1 Curve: Represents the F1-score (Precision + Recall balance) for object detection.
+
+BoxP Curve (Precision): Measures how many predicted objects were correct.
+
+BoxR Curve (Recall): Measures how many real objects were correctly detected.
+
+Box PR Curve: Combines Precision vs Recall to evaluate model performance visually.
+
+🔹 Results Summary
+
+The model successfully detected and segmented objects in all input images.
+
+Generated output images were saved in the runs/ directory.
+
+Metrics show good detection accuracy with balanced precision and recall.
