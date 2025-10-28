@@ -1,0 +1,21 @@
+Task 01 – Ultralytics Setup & Object Detection
+
+Name: Bushra Amatulla
+Hub ID: HUB2505013
+Date: 20-10-2025
+
+Task Objective
+
+The goal of this task was to install the Ultralytics YOLOv8 package, set up a Python environment, and perform object detection on a sample image using a pre-trained YOLOv8 model.
+
+Task Description
+
+Virtual Environment Setup
+
+Created a Python virtual environment using venv.
+
+Activated the environment before installing packages.
+
+Ultralytics Installation
+
+Installed the ultralytics package following the official Ultralytics Quickstart Guide
