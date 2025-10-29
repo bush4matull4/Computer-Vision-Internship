@@ -1,0 +1,34 @@
+TASK 3 REPORT — Video to Frames to Processed Video
+Task Title:
+
+Video Frame Extraction and Object Detection
+
+Objective:
+
+To convert a video into image frames, detect objects in each frame using YOLOv8, and then reconstruct a processed video with detected results.
+
+Tools & Technologies Used:
+
+Python 3.12
+
+FFmpeg (for video–frame conversion)
+
+Ultralytics YOLOv8 (for object detection)
+
+VS Code (IDE)
+
+Command Prompt / PowerShell
+
+Process Explanation:
+
+Video to Frames Conversion:
+The given video was first converted into multiple image frames using FFmpeg. Each frame represents a single moment of the video.
+
+Object Detection on Frames:
+The extracted frames were processed using the YOLOv8 model. The model detected and labeled all visible objects in each frame.
+
+Reconstruction to Processed Video:
+After detection, all processed frames were combined back into a single video. The final video displayed bounding boxes and class labels on detected objects.
+
+Result:
+The final output video clearly showed all detected objects frame by frame, confirming successful object detection and video reconstruction.
